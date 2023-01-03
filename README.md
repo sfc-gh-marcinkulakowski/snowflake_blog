@@ -16,6 +16,7 @@ Create within the working folder named config_sf.ini, and place all related info
 The config file should resemble the one below, with your info filled in:
 
 ## config_sf.ini
+```sh
 [Snowflake]
 sfAccount = <snowflake account>
 sfUser = <user name>
@@ -24,3 +25,4 @@ sfWarehouse = <warehouse>
 sfDatabase = <database>
 sfSchema = <schema>
 sfRole = <role>
+```
