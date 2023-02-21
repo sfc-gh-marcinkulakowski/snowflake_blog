@@ -1,5 +1,8 @@
+# Read Me
+
 Simple blog app with Streamlit and Snowflake. The blog contains Create Read Delete blog capabilities. Update functionality is coming soon.
 
+## Features
 Home: simply lists all blog posts
 View Posts: displays full blog posts
 Add Post: create your post
@@ -12,6 +15,7 @@ App is also using ConfigParser, python package to handle configuration files.
 Create within the working folder named config_sf.ini, and place all related information. 
 The config file should resemble the one below, with your info filled in:
 
+## config_sf.ini
 [Snowflake]
 sfAccount = <snowflake account>
 sfUser = <user name>
@@ -20,4 +24,3 @@ sfWarehouse = <warehouse>
 sfDatabase = <database>
 sfSchema = <schema>
 sfRole = <role>
-
